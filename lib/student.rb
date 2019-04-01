@@ -4,7 +4,7 @@ attr_accessor :first_name, :last_name
 
 @@knowledge = []
 
-def initialize(first_name, last_name)
+def initialize(first_name, last_name, knowledge)
   @first_name = first_name
   @last_name = last_name
   @@knowledge = []
